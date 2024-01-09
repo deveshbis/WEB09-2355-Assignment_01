@@ -8,26 +8,26 @@
 /* Header style */
 
 .header {
-
     width: 1320px;
     height: 600px;
     margin: 0 auto;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner.png);;
+    
 
 }
 
 .banner {
     padding: 100px;
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .banner-greeting {
-    color: hwb(200 93% 0% / 0.944);
-    text-align: center;
+    color: white;
+    /* text-align: center; */
     font-size: 32px;
     font-weight: 400;
-    line-height: normal;
+    
 
 
 }
@@ -36,7 +36,7 @@
     color: #FFF;
     font-size: 80px;
     font-weight: 900;
-    line-height: 97px
+    /* line-height: 97px */
 }
 
 /* main section category style */
