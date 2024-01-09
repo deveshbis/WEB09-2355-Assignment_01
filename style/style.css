@@ -2,18 +2,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
-
 /* Header style */
 
 .header {
     width: 1320px;
     height: 600px;
     margin: 0 auto;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner.png);;
-    
-
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner.png");
 }
 
 .banner {
@@ -27,9 +22,6 @@
     /* text-align: center; */
     font-size: 32px;
     font-weight: 400;
-    
-
-
 }
 
 .banner-title {
@@ -38,6 +30,7 @@
     font-weight: 900;
     /* line-height: 97px */
 }
+
 
 /* main section category style */
 
@@ -81,7 +74,7 @@
     width: 1320px;
     height: 600px;
     margin: 0 auto;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/images/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     margin-top: 100px;
 }
