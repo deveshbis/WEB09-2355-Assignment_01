@@ -19,9 +19,6 @@ body {
     padding: 100px;
     text-align: center;
     margin: 0 auto;
-
-
-
 }
 
 .banner-greeting {
@@ -189,11 +186,24 @@ body {
     justify-content: space-around;
     align-items: center;
     display: flex;
-    
+
 }
 
-.offer-pic-1 img{
+.offer-pic-1 img {
     display: flex;
     justify-content: center;
 
+}
+
+.offer-pic-1 {
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+
+
+}
+
+.offfer-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
 }
