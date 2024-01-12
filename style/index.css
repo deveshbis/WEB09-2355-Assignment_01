@@ -3,8 +3,6 @@
 }
 
 /* Banner Section Style Start */
-
-
 .banner-section {
     display: grid;
     margin: 0 auto;
@@ -40,7 +38,6 @@
 
 
 /* Category Section Style Start */
-
 .Category {
     color: #F00;
     text-align: center;
@@ -71,8 +68,8 @@
 /* Category Section Style End */
 
 
-/* Mid-Night party Section Style Start */
 
+/* Mid-Night party Section Style Start */
 .party-Section {
     display: flex;
     margin: 0 auto;
@@ -128,8 +125,8 @@
 /* Mid-Night party Section Style End */
 
 
-/* New Park Hotel Section Style  Start*/
 
+/* New Park Hotel Section Style  Start*/
 .park-section {
     padding: 30px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -174,8 +171,8 @@
 /* New Park Hotel Section Style End*/
 
 
-/* Best Offer Section Style Start */
 
+/* Best Offer Section Style Start */
 .offer-section {
     display: flex;
     align-items: center;
@@ -218,16 +215,11 @@
 
 
 
-/* Holidays sales Section Style Start */
-
-/* Holidays sales Section Style End */
-
 /* Best gift Offer Scetion Style Start */
 .gift-section {
+
     margin: 0 auto;
     margin-top: 20px;
-    width: 1320px;
-    height: 600px;
 }
 
 .gift-content {
@@ -240,7 +232,9 @@
     color: #070211;
     font-size: 48px;
     font-weight: 900;
+
 }
+
 .gift-description {
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
@@ -248,13 +242,125 @@
     font-weight: 400;
 }
 
-.first-layout-img, .second-layout-img {
+.first-layout-img,
+.second-layout-img {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 1px;
+    margin-left: 1px;
 }
 
-/* .second-layout-img {
-    margin: 10px 10px 10px;
-} */
 /* Best gift Offer Scetion Style End*/
+
+
+/* Subscriber Section Style Start */
+.subscriber-section {
+    text-align: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.subscriber-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscriber-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-container input {
+    height: 50px;
+    width: 450px;
+    padding-left: 50px;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+.table-container button {
+    position: relative;
+    background-color: #F00;
+    border-radius: 50px;
+    left: -70px;
+    width: 210px;
+}
+
+/* Subscriber Section Style Start */
+
+
+/* Footer section Style Start */
+.footer-section {
+    background-color: black;
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.footer-first {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.footer-content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 375px;
+    height: 80px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.f-icons {
+    width: 24px;
+    height: 24px;
+}
+
+.profile {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    color: #fff;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.footer-hr {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-icons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.footer-last {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+/* Footer section Style End */
