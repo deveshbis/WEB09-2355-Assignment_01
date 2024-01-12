@@ -14,7 +14,6 @@
     color: #fff;
     margin-top: 20px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner.png') no-repeat;
-
 }
 
 .banner-content {
@@ -22,7 +21,7 @@
     text-align: center;
     font-weight: 500;
     font-size: 50px;
-    margin-top: 100px;
+    margin-bottom: 0px;
 }
 
 .banner-title {
@@ -30,10 +29,12 @@
     font-weight: 900;
     text-align: center;
     font-size: 72px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 /* Banner Section Style End */
+
+
 
 
 
@@ -43,7 +44,6 @@
     text-align: center;
     font-size: 88px;
     font-weight: 700;
-
 }
 
 .category-title {
@@ -61,11 +61,13 @@
 }
 
 .category-img {
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
-
 /* Category Section Style End */
+
+
+
 
 
 
@@ -121,8 +123,11 @@
     align-items: center;
     flex-shrink: 0;
 }
-
 /* Mid-Night party Section Style End */
+
+
+
+
 
 
 
@@ -135,7 +140,6 @@
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 16px;
-
 }
 
 .new-park-hotel {
@@ -167,8 +171,9 @@
     border: none;
     color: white;
 }
-
 /* New Park Hotel Section Style End*/
+
+
 
 
 
@@ -180,7 +185,6 @@
     margin-top: 20px;
     width: 1320px;
     height: 600px;
-
 }
 
 .offer-content {
@@ -210,8 +214,73 @@
     font-weight: 400;
     line-height: 32px;
 }
-
 /* Best Offer Section Style End */
+
+
+
+
+
+/* Holidays sales Section Style Start */
+.holiday-section {
+    border-radius: 16px;
+    width: 1320px;
+    height: 800px;
+}
+
+.holiday-section ul h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-section h1 {
+    color: #070211;
+    font-size: 72px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.holiday-section p {
+    margin: 0 auto;
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 100px;
+}
+
+.discount-cart {
+    position: relative;
+    right: 120px;
+    bottom: 350px;
+}
+
+.girl {
+    position: relative;
+    left: 465px;
+    bottom: 300px;
+}
+
+.red-border {
+    position: relative;
+    top: 366px;
+    left: 80px;
+}
+
+.gift-box{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    bottom: 120px;
+    margin-bottom: 30px;    
+}
+/* Holidays sales Section Style End*/
+
+
 
 
 
@@ -219,7 +288,9 @@
 .gift-section {
 
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 250px;
+    width: 1320px;
+    height: 1150px;
 }
 
 .gift-content {
@@ -232,7 +303,6 @@
     color: #070211;
     font-size: 48px;
     font-weight: 900;
-
 }
 
 .gift-description {
